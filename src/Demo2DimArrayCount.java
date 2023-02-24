@@ -9,12 +9,14 @@ public class Demo2DimArrayCount {
                 { '-', 'O', '-' }
         };
 
+        System.out.println("Le tableau est:");
         for(char[] line : tictactoe) {
             System.out.println("" + line[0] + line[1] + line[2]);
         }
+        System.out.println();
 
         int nrX = countChar(tictactoe, 'X');
-        System.out.println(nrX);
+        System.out.println("Le nombre d'occurence de 'X' est " + nrX);
     }
 
     /**
